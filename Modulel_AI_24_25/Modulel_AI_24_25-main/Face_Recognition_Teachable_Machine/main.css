@@ -1,0 +1,67 @@
+.text{
+    text-align: center;
+    font-size: 23px; /* Kích thước chữ */
+    font-weight: 550;
+}
+
+.button {
+    margin: 0;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    right: 50%;
+}
+
+.button button {
+    background-color: #f0f0f0;
+    border: 2px solid black;
+    padding: 8px 20px;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    color: black;
+    box-shadow: 4px 4px 0px 0px black;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    left: 50%; /* Centers the button horizontally */
+    top: 5%; /* Positions the button at 18% from the top */
+    transform: translate(-50%, -14%); /* Adjusts the button to be perfectly centered */
+}
+
+#webcam-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh; /* Chiều cao của màn hình */
+}
+
+#label-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Hiển thị các nhãn theo hàng ngang */
+    font-family: Arial, sans-serif; /* Kiểu chữ cho nhãn */
+    font-size: 20px; /* Kích thước chữ */
+    
+    color: #333; /* Màu chữ */
+    
+    height: 03vh; /* Chiều cao của màn hình */
+}
+
+#label-container div {
+    padding: 7px 10px; /* Tạo khoảng cách xung quanh nhãn */
+    border-radius: 7px; /* Bo tròn các góc của nhãn */
+    background-color: #f0f0f0; /* Màu nền của nhãn */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+    margin-right: 0.3cm;
+    margin-left: 0.3cm
+}
+
+
+
+
+
+
+
+
+
